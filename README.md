@@ -1,6 +1,6 @@
 # Protein Molecular Weight Estimator
 
-This web application calculates the molecular weight of a protein based on its amino acid sequence and optional post-translational modifications (PTMs). The app is built using **Streamlit** and allows users to input protein sequences manually or upload a sequence file in `.txt` or `.fasta` format. The app also supports various PTMs, including phosphorylation, acetylation, methylation, ubiquitination, glycosylation, and disulfide bond formation.
+This web application calculates a protein's molecular weight based on its amino acid sequence and optional post-translational modifications (PTMs). It is built using **Streamlit** and allows users to input protein sequences manually or upload a sequence file in `.txt` or `.fasta` format. The app also supports various PTMs, including phosphorylation, acetylation, methylation, ubiquitination, glycosylation, and disulfide bond formation.
 
 ## Features
 
@@ -10,6 +10,12 @@ This web application calculates the molecular weight of a protein based on its a
 - **Molecular Weight Calculation**: Calculate the molecular weight in Da (Daltons) and kDa (kilodaltons).
 - **Amino Acid Composition**: View the composition of amino acids in the protein sequence.
 - **Result Download**: Download the results as a CSV file.
+
+## Live Demo
+
+You can access the live demo of the **Protein Molecular Weight Estimator** app at the following URL:
+
+[Protein Molecular Weight Estimator](https://proteinwtestimator.streamlit.app/)
 
 ## Installation
 
@@ -38,3 +44,5 @@ After setting up the environment, run the Streamlit app locally:
 
 ```bash
 streamlit run app.py
+
+
